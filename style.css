@@ -88,3 +88,7 @@ html {
 ::before {
   box-sizing: border-box;
 }
+
+v-logo {
+  padding: 15px;
+}
