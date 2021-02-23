@@ -87,7 +87,7 @@
           datasets: [
             {
               label: "Shipments",
-              backgroundColor: "rgb(144,238,144)" , 	
+              backgroundColor: "rgb(206,49,117,1.00)" , 	
               //"rgb(0, 99, 132)" ,
              // borderColor: "green",
               //borderWidth: 5,
@@ -96,7 +96,7 @@
             },{
               
               label: "Exceptions",
-              backgroundColor: "rgb(0,128,0)" ,
+              backgroundColor: "rgb(128,128,128)" ,
              // borderColor: "green",
               //borderWidth: 5,
               hoverBackgroundColor: "green",
@@ -107,7 +107,13 @@
         
 
         // Configuration options go here
-        options: {},
+        options: {legend: {
+            labels: {
+                // This more specific font property overrides the global property
+                fontSize: 20,
+                fontColor: "White"
+            }
+        }},
         tooltips: {
             mode: "index",
         }
